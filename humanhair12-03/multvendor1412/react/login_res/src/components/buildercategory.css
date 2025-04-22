@@ -1,0 +1,34 @@
+.product-grid-container {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    flex: 0 0 calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 1024px) {
+    .product-card {
+      flex: 0 0 calc(33.33% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product-card {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-card {
+      flex: 0 0 100%;
+    }
+  }
+  
