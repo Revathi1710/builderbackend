@@ -34,7 +34,7 @@ app.use(express.json());
 const corsOptions = {
 origin: [
    
-    'http://localhost:3000'
+    'http://localhost:3000','https://builder.myorderz.com'
   ],// Ensure this matches your client-side URL
 
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
